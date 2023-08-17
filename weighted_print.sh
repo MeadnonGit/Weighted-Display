@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # This file opens a file i n(i) time(s).
-# It takes many pairs arguments as filename1 number1 filename2 number2 ... and opens filename1 numbber1 times, opens filename2 number2 times etc.
+# It takes many pairs arguments as filename1 number1 filename2 number2 ... and opens filename1 number1 times, opens filename2 number2 times etc.
 
 
 
-# The following function executes a defined action which is "echo" according which is to the value of its first argument which is an integer
+# The following function executes a defined action which is "echo" according to the value of its first argument which is an integer
 
 Action(){
 	error_msg=${1:?"Usage : number name_of_file"}
